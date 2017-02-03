@@ -1,0 +1,712 @@
+<html>
+<head>
+<title> My website </title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+*{
+	margin:0px auto;
+	font-family:"open sans",sans-serif;
+	
+}
+#header-wrapper{
+	background-color:#fff;
+	width:1170px;
+	
+}
+#top-bar{
+	border:1px solid;
+	background-color:#454545;
+	
+}
+.text-left{
+	margin:10px 0px 10px 20px;
+	float:left;
+}
+.text-right{
+	width:50%;
+	float:right;
+}
+.email{
+	
+	color:white;
+	margin-left:20px;
+
+}
+.phone{
+	color:white;
+	
+	margin-left:50px;
+}
+.text-right ul li{
+	list-style:none;
+	float:right;
+	color:white;	
+	margin:10px 20px 0px 0px;
+}
+.logo-left{
+	width:50%;
+	margin-left:50px;
+}
+.logo-left img{
+	width:380px;
+	margin:10px 0px 10px 0px;
+	float:left;
+}
+.logo-right h1{
+	float:right;
+	display:inline-block;
+	font-size:20px;
+	padding:15px;
+	color:#165dc7;
+}
+.logo-right1 label{
+	margin-right:16px;
+	float:right;
+	font-size:18px;
+}
+.icons{
+	margin:60px 20px 5px 70px;
+	float:right;
+	position:absolute;
+	right:90px;
+}
+.nav-bar{
+	border:1px solid;
+	background-color:#165dc7;
+	padding:10px;
+	color:#fff;
+}
+.nav-bar ul li{
+	list-style:none;
+	margin:0px 0px 0px 65px;	
+	display:inline-block;
+}
+.nav-bar ul li:hover{
+	cursor:pointer;
+	color:palegreen;
+}
+.slider{
+	text-align:center;
+}
+.slider img{
+	width:1170px;
+	margin:0px;
+
+}
+.slider i{
+
+	float:left;
+	margin-top:170px;
+	color:#165dc7;
+	position:absolute;
+	left:90px;
+}
+.fa-angle-double-right{
+
+	position:absolute;
+	right:-1050px;
+}
+.content-area{
+	width:1170px;
+	min-height:100px;
+}
+.section1 p{
+	margin:10px 0px 0px 20px;
+	width:500px;
+	text-align:justify;
+	float:left;
+	font-size:17px;
+	color:#666;
+}
+.section1 h1{
+	color:#165dc7;
+	text-decoration:underline;
+	margin-left:20px;
+	font-family:cambria;
+}
+.section2 img{
+	width:630px;
+	float:right;
+}
+.article1{
+	width:850px;
+	min-height:300px;
+	float:left;
+	margin-left:100px;
+}
+.article-section1{
+	width:380px;
+	border:1px solid;
+	min-height:200px;
+	float:left;
+	margin:30px 55px 10px 0px;
+	border-color:#165dc7;
+
+}
+.article-section1:hover{
+	transition:all 0.3s ease-in-out;
+	background-color:#165dc7;
+	color:white;
+	border-color:white;
+}
+.article-section1:hover p,
+.article-section1:hover h1
+{
+	color:white;
+}
+.article-section2{
+	width:380px;
+	border:1px solid;
+	min-height:200px;
+	float:left;
+	margin:30px 0px 10px 0px;
+	border-color:#165dc7;
+}
+.article-section2:hover{
+	transition:all 0.3s ease-in-out;
+	background-color:#165dc7;
+	color:white;
+	border-color:white;
+}
+.article-section2:hover p,
+.article-section2:hover h1
+{
+	color:white;
+}
+.article-section3{
+	width:380px;
+	border:1px solid;
+	min-height:200px;
+	float:left;
+	margin:30px 10px 10px 0px;
+	border-color:#165dc7;
+}
+.article-section3:hover{
+	transition:all 0.3s ease-in-out;
+	background-color:#165dc7;
+	color:white;
+	border-color:white;
+}
+.article-section3:hover p,
+.article-section3:hover h1
+{
+	color:white;
+}
+.article-section4{
+	width:380px;
+	border:1px solid;
+	min-height:200px;
+	float:left;
+	margin:30px 0px 10px 45px;
+	border-color:#165dc7;
+}
+.article-section4:hover{
+	transition:all 0.3s ease-in-out;
+	background-color:#165dc7;
+	color:white;
+	border-color:white;
+}
+.article-section4:hover p,
+.article-section4:hover h1
+{
+	color:white;
+}
+.article-radius1{
+	position:absolute;
+	border:1px solid;
+	border-radius:50%;
+	width:50px;
+	height:50px;
+	margin:-30px 0px 0px 160px;
+	background-color:#e8e8e8;
+	border-color:#165dc7;
+}
+.article-radius2{
+	position:absolute;
+	border:1px solid;
+	border-radius:50%;
+	width:50px;
+	height:50px;
+	margin:-30px 0px 0px 160px;
+	background-color:#e8e8e8;
+	border-color:#165dc7;
+}
+.article-radius3{
+	position:absolute;
+	border:1px solid;
+	border-radius:50%;
+	width:50px;
+	height:50px;
+	margin:-30px 0px 0px 160px;
+	background-color:#e8e8e8;
+	border-color:#165dc7;
+}
+
+.article-radius4{
+	position:absolute;
+	border:1px solid;
+	border-radius:50%;
+	width:50px;
+	height:50px;
+	margin:-30px 0px 0px 160px;
+	background-color:#e8e8e8;
+	border-color:#165dc7;
+}
+.article-icon1{
+	position:absolute;
+	color:#165dc7;
+	margin:-20px 0px 0px 175px;
+	cursor:pointer;
+}
+.article-icon2{
+	position:absolute;
+	color:#165dc7;
+	margin:-22px 5px 0px 170px;
+	cursor:pointer;
+	
+}
+.article-icon3{
+	position:absolute;
+	color:#165dc7;
+	margin:-22px 2px 0px 178px;
+	cursor:pointer;
+}
+.article-icon4{
+	position:absolute;
+	color:#165dc7;
+	margin:-22px 2px 0px 170px;
+	cursor:pointer;
+}
+.article-content1 h1{
+	font-size:24px;
+	margin:30px 140px 0px 150px;
+	font-family:cambria;
+	border-bottom:1px solid;
+	color:#165dc7;
+}
+.article-content1 p{
+	margin:10px 30px 5px 30px;
+	text-align:justify;
+	color:#454545;
+}
+.article-content2 h1{
+	font-size:24px;
+	margin:30px 130px 0px 140px;
+	font-family:cambria;
+	border-bottom:1px solid;
+	color:#165dc7;
+}
+.article-content2 p{
+	margin:10px 30px 5px 30px;
+	text-align:justify;
+	color:#454545;
+}
+.article-content3 h1{
+	font-size:24px;
+	margin:30px 130px 0px 140px;
+	font-family:cambria;
+	border-bottom:1px solid;
+	color:#165dc7;
+}
+.article-content3 p{
+	margin:10px 30px 5px 30px;
+	text-align:justify;
+	color:#454545;
+}
+.article-content4 h1{
+	font-size:24px;
+	margin:30px 140px 0px 150px;
+	font-family:cambria;
+	border-bottom:1px solid;
+	color:#165dc7;
+}
+.article-content4 p{
+	margin:10px 30px 5px 30px;
+	text-align:justify;
+	color:#454545;
+}
+.article-section5{
+	border:2px solid #165dc7;
+	min-height:615px;
+	width:287px;
+	margin:30px 10px 0px 10px;
+	position:relative;
+}
+.article-radius5{
+	border:1px solid;
+	border-color:#165dc7;
+	margin:15px;
+	width:253px;
+	min-height:580px;
+	position:absolute;
+}
+.article-content5 h1{
+	font-size:22px;
+	color:#165dc7;
+	margin:10px 55px 0px 55px;
+	border-bottom:1px solid;
+	cursor:pointer;
+}
+.article-content5 p{
+	text-align:justify;
+	padding:20px;
+	color:#666;
+}
+.article2{
+	width:290px;
+	float:right;
+	min-height:200px;
+	margin-right:100px;
+}
+.news{
+	width:813px;
+	border:1px solid #165dc7;
+	float:left;
+	margin-left:100px;
+	margin-top:-136px;
+	background-color:#e8e8e8;
+}
+.news input{
+	margin:25px 20px 25px 200px;
+	width:340px;
+	min-height:40px;
+}
+.news button{
+	width:120px;
+	min-height:40px;
+	margin-left:10px;
+	color:white;
+	background-color:#165dc7;
+	border-color:#165dc7;
+}
+.news-letter h1{
+	font-size:24px;
+	font-family:cambria;
+	margin-left:200px;
+	color:#165dc7;
+	border-bottom:1px solid;
+	margin-right:340px;
+	text-decoration:bold;
+	padding-top:15px;
+}
+.footer{
+	width:1159px;
+	margin:0px auto;
+	margin-top:30px;
+	margin-left:99px;
+	background-color:#454545;
+	background-image:url("http://oxosolutions.com/wp-content/themes/darlic/images/patterns2/07.png");
+	background-repeat:repeat;
+	}
+.footer-section1{
+	width:250px;
+	margin:0px auto;
+	margin-left:10px;
+	margin-top:30px;
+	margin-bottom:30px;
+	float:left;
+	color:white;
+}
+.footer-section1 hr{
+	margin-top:5px;
+}
+.footer-section1 h1{
+	font-size:22px;
+	margin-left:36px;
+
+}
+.footer-section1 li{
+	list-style:none;
+	margin-top:10px;
+	font-size:15px;
+}
+.footer-section2{
+	width:250px;
+	color:white;
+	margin:0px auto;
+	margin-top:30px;
+	margin-left:30px;
+	margin-bottom:30px;
+	float:left;
+}
+.footer-section2 hr{
+	margin-top:5px;
+}
+.footer-section2 h1{
+	font-size:22px;
+	margin-left:36px;
+}
+.footer-section2 li{
+	list-style:none;
+	margin-top:10px;
+	font-size:15px;
+}
+.footer-section3{
+	width:250px;
+	color:white;
+	margin:0px auto;
+	margin-left:30px;
+	margin-top:30px;
+	margin-bottom:30px;
+	float:left;
+}
+.footer-section3 hr{
+	margin-top:5px;
+}
+.footer-section3 h1{
+	font-size:22px;
+	margin-left:36px;
+}
+.footer-section3 li{
+	list-style:none;
+	margin-top:10px;
+	font-size:15px;
+}
+.footer-section4{
+	width:250px;
+	color:white;
+	margin:0px auto;
+	margin-left:30px;
+	margin-top:30px;
+	margin-bottom:30px;
+	float:left;
+}
+.footer-section4 hr{
+	margin-top:5px;
+}
+.footer-section4 h1{
+	font-size:22px;
+	margin-left:36px;
+}
+.footer-section4 li{
+	list-style:none;
+	margin-top:10px;
+	font-size:15px;
+}
+.footer-section5{
+background-color:#454545;
+width:1159px;
+}
+.footer-cpy{
+	padding:20px;
+	color:white;
+	margin-left:20px;
+}
+</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div id="header-wrapper">
+			<div id="top-bar">
+				
+					<div class="text-left">
+						<label class="email">contact@oxosolutions.com</label>
+						<label class="phone">9501010103</label>
+					</div>
+					<div class="text-right">
+						<ul>
+							<li> Contact </li>
+							<li> Sitemap&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ||</li>
+							<li> Support&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ||</li>
+					</div>
+					<div class="clear" style="clear:both"></div>
+				
+			</div>
+			<div class="logo">
+				<div class="logo-left">
+					<img src="C:\Users\DELL\Desktop\scan\fhts_collaborators_oxo_solutions_logo-300x150.png" alt="" />
+				</div>
+				<div class="logo-right">
+					<h1>Empowering small to large businesses since 2008</h1>
+					<div class="logo-right1">
+						<label>Fulfilling all your IT needs at single stop
+						</label></div><br>
+					<div class="icons">
+					<i class="fa fa-facebook-square" style="font-size:32px;color:#165dc7"></i>
+					<i class="fa fa-linkedin-square" style="font-size:32px;color:#165dc7"></i>
+					<i class="fa fa-instagram" style="font-size:32px;color:#165dc7"></i>
+				</div>
+				</div>
+				<div class="clear" style="clear:both"></div>
+			</div>
+			<div class="nav-bar">
+				<ul>
+					<li>Home</li>
+					<li>About Us</li>
+					<li>Products</li>
+					<li>Services</li>
+					<li>Portfolio</li>
+					<li>Blog</li>
+					<li>Career</li>
+					<li>Contact Us</li>
+			</div>
+		</div>
+		<div class="container">
+			<div class="slider">
+				<img src="C:\Users\DELL\Desktop\scan\oxosolutions\banner6.png" alt="" />
+				<i class="fa fa-angle-double-left" style="font-size:36px"></i>
+				<i class="fa fa-angle-double-right" style="font-size:36px"></i>
+			</div>
+			<div class="content-area">
+					<div class="section1">
+						<h1>About OXO solutions</h1>
+						<p>OXO Solutions is a leading IT company of India, providing various web solutions to clients worldwide. We have skilled team of web designers, internet marketing experts, programmers who always work with your needs and requirements. OXO Solutions delivering wide range of proficient and inexpensive web solutions which includes website designing, web application development, internet marketing and e-commerce solutions for the small and large business globally across USA, UK, Dubai, Canada, Australia and India.Our team consists of highly-skilled professionals who give most comprehensive solutions to your requirements. When you choose us, you can rest assure that your website would be a high-notch attractive design and user-friendly with latest techniques incorporated into it. </p>
+					</div>
+					<div class="section2">
+						<img src="C:\Users\DELL\Desktop\scan\oxosolutions\gxEJd.png" alt="" />
+					</div>
+				<div class="clear" style="clear:both"></div>
+			</div>
+			<div class="article1">
+				<div class="article-section1">
+					<div class="article-radius1">
+					</div>
+					<div class="article-icon1">
+						<i class="fa fa-facebook-f" style="font-size:36px"></i>
+					</div>
+					<div class="article-content1">
+						<h1 class="article-content1">FB-Auto</h1>
+						<p>FB Auto is the easiest way to schedule posts on Facebook. It is a Platform where you can easily manage your scheduling for all your pages & groups in one place.You can publish your posts to Facebook as simple text message, text message with image. </p>
+					</div>	
+				</div>
+				<div class="article-section2">
+					<div class="article-radius2">
+					</div>
+						<div class="article-icon2">
+							<i class="fa fa-comments-o" style="font-size:36px"></i>
+						</div>
+						<div class="article-content2">
+						<h1 class="article-content2">Live chat</h1>
+						<p>Web and desktop clients. Co-Browsing, XMPP notifications, GTalk, Jabber, Openfire, Skype, Chrome extension, Node.js support, MySQL, PostgreSQL, Speech to text, Online users tracking, Tablet and Mobile friendly, Invite users to chat, Documents sharer module. </p>
+					</div>	
+				</div>
+				<div class="article-section3">
+					<div class="article-radius3">
+					</div>
+						<div class="article-icon3">
+							<i class="fa fa-mobile" style="font-size:36px"></i>
+						</div>
+						<div class="article-content3">
+						<h1 class="article-content3">Bulk Sms</h1>
+						<p>Bulk SMS stands for bulk messaging. Bulk SMS is used by companies, enterprises, banks, schools, and small businesses. Bulk SMS is used for sending sms (short message service) to mobile no. Bulk SMS is used as promotional sms for sms marketing. </p>
+					</div>	
+				</div>
+				<div class="article-section4">
+					<div class="article-radius4">
+					</div>
+						<div class="article-icon4">
+							<i class="fa fa-twitter" style="font-size:36px"></i>
+						</div>
+						<div class="article-content4">
+						<h1 class="article-content4">Twitter</h1>
+						<p>Twitter was created in March 2006 by Jack Dorsey, Noah Glass, Biz Stone, and Evan Williams and launched in July.Twitter is an social networking service where users post and interact with messages, "tweets," restricted to 140 characters.</p>
+					</div>	
+				</div>	
+			</div>
+				<div class="article2">
+				<div class="article-section5">
+					<div class="article-radius5">
+						<div class="article-content5">
+							<h1 class="article-content5">Testimonials</h1>
+							<p>  When it comes to creating professional, attractive, and effective websites, there is no company that can surpass OXO Solutions. Thanks to their talent, our site has taken off in the search engines like a rocket. In this day and age, it is impossible to get ahead as a business without the support of gurus like OXO Solutions standing behind you.When it comes to creating professional, attractive, and effective websites,Thanks to their talent, our site has taken off in the search engines like a rocket. In this day and age, it is impossible to get ahead as a business without the support of gurus like OXO Solutions standing behind you. Celebrity endorsements where increasing consumerism makes the purchase of an endorsed product into a status symbol.</p>
+						</div>
+					</div>	
+				</div>	
+				</div>
+				<div class="clear" style="clear:both"></div>
+			<div class="news">
+				<div class="news-letter">
+					<h1 class="news-letter">Subscribe to News-letter</h1>
+				</div>
+				<input type="text" value=""></input>
+				<button type="btn">Subscribe</button>
+			</div>
+			<div class="footer">
+				<div class="footer-section1">
+					<h1>Services</h1>
+					<ul>
+						<li>Web Design</li>
+						<hr>
+						<li>Logo Design</li>
+						<hr>
+						<li>Web development</li>
+						<hr>
+						<li>Ecommerce</li>
+						<hr>
+						<li>CMS Customization</li>
+						<hr>
+						<li>SEO</li>
+						<hr>
+						<li>Software Development</li>
+					</ul>
+				</div>
+				<div class="footer-section2">
+					<h1>Portfolio</h1>
+					<ul>
+						<li>Web Design Portfolio</li>
+						<hr>
+						<li>Web Development Portfolio</li>
+						<hr>
+						<li>Logo Design Portfolio</li>
+						<hr>
+						<li>SEO Portfolio</li>
+						<hr>
+						<li>E-commerce Portfolio</li>
+						<hr>
+						<li>CMS Customization Portfolio</li>
+						<hr>
+						<li>Software Development Portfolio</li>
+					</ul>
+				</div>
+				<div class="footer-section3">
+					<h1>Policys</h1>
+					<ul>
+						<li>FAQ's</li>
+						<hr>
+						<li>Newsletter</li>
+						<hr>
+						<li>Testimonials</li>
+						<hr>
+						<li>Privacy Policy</li>
+						<hr>
+						<li>Hosting and Server Policy</li>
+						<hr>
+						<li>Terms & Conditions</li>
+						<hr>
+						<li>Employee Verification</li>
+					</ul>
+				</div>
+				<div class="footer-section4">
+					<h1>Contact Us</h1>
+					<ul>
+						<li>Contact</li>
+						<hr>
+						<li>My Account</li>
+						<hr>
+						<li>Apply Online</li>
+						<hr>
+						<li>OXO Franchise</li>
+						<hr>
+						<li>Support</li>
+						<hr>
+						<li>Affiliate</li>
+						<hr>
+						<li>Training</li>
+					</ul>
+				</div>
+				<div class="clear" style="clear:both"></div>
+				<div class="footer-section5">
+					<div class="footer-cpy">
+					<label class="footer-cpy">©2015 OXO IT SOLUTIONS PRIVATE LIMITED. All rights reserved. DARLIC™ is a registered trademark of OXO IT SOLUTIONS PVT LTD.</label>
+					</div>
+				</div>
+					
+			</div>
+				
+		</div>
+		
+		</div>
+			
+		</div>
+	</div>	
+</div>
